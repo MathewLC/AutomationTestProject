@@ -29,6 +29,9 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    useLibrary("android.test.base")
+    useLibrary("android.test.mock")
 }
 
 dependencies {
